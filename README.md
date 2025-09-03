@@ -65,7 +65,7 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 1. **Clone repositori ini**
 
 ```bash
-git clone https://github.com/nama-kamu/igd-inap-app.git
+git clone https://github.com/nama-kamu/bengkel-app.git
 cd igd-inap-app
 Install dependensi PHP
 
