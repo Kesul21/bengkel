@@ -59,3 +59,29 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+## 🚀 Instalasi
+
+1. **Clone repositori ini**
+
+```bash
+git clone https://github.com/nama-kamu/igd-inap-app.git
+cd igd-inap-app
+Install dependensi PHP
+
+
+composer install
+npm install
+npm run build
+Copy file .env dan atur konfigurasi
+rubah .env.example menjadi.env
+Edit .env dan atur database:
+
+env
+DB_DATABASE=igd_inap
+DB_USERNAME=root
+DB_PASSWORD=
+
+Generate key dan migrate database
+php artisan key:generate
+php artisan migrate --seed
